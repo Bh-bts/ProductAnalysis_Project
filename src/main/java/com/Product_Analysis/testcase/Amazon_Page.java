@@ -141,6 +141,8 @@ public class Amazon_Page extends Amazon_Obj {
 
 		List<String> testcase = Arrays.asList(sb.toString().split("\n"));
 
+		@SuppressWarnings({ "unchecked", "rawtypes" })
+
 		List<Annotation> annotations = new ArrayList(testcase);
 		float totalSentimentvalue = 0;
 
