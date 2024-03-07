@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Product_Analysis.MainPage.Amazon_MainPage">
+      <class name="MainPage.com.product.analytica.Amazon_MainPage">
         <methods>
           <include name="teardown"/>
           <include name="productAnalysis"/>
         </methods>
-      </class> <!-- com.Product_Analysis.MainPage.Amazon_MainPage -->
+      </class> <!-- MainPage.com.product.analytica.Amazon_MainPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
