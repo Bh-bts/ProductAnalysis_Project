@@ -1,0 +1,7 @@
+com\product\analytica\browsers\Browsers.class
+com\product\analytica\helpers\ActionHelpers.class
+com\product\analytica\pages\AmazonPage.class
+com\product\analytica\utils\ScreenshotUtils.class
+com\product\analytica\browsers\Browsers$1.class
+com\product\analytica\utils\PropertiesUtils.class
+com\product\analytica\enums\BrowserTypes.class
