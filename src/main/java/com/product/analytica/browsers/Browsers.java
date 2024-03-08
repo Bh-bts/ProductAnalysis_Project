@@ -69,7 +69,7 @@ public class Browsers {
             chromeOption.addArguments("--no-sandbox");
             chromeOption.addArguments("--allow-running-insecure-content");
         }
-        return new ChromeDriver();
+        return new ChromeDriver(chromeOption);
     }
 
     /**
