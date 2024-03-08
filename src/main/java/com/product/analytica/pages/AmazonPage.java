@@ -27,10 +27,14 @@ import edu.stanford.nlp.util.CoreMap;
  */
 public class AmazonPage extends Browsers {
 
-    public static @FindBy(xpath = "//div[@class='a-row a-spacing-base a-size-base']") WebElement reviewsCount;
-    public static @FindBy(xpath = "//ul[@class='a-pagination']//li[2]") WebElement nextPage;
-    public static @FindBy(xpath = "//h1[@class='a-size-large a-text-ellipsis']/a") WebElement productName;
-    public static @FindBy(xpath = "//span[@data-hook='rating-out-of-text']") WebElement productRatings;
+    @FindBy(xpath = "//div[@class='a-row a-spacing-base a-size-base']")
+    WebElement reviewsCount;
+    @FindBy(xpath = "//ul[@class='a-pagination']//li[2]")
+    WebElement nextPage;
+    @FindBy(xpath = "//h1[@class='a-size-large a-text-ellipsis']/a")
+    WebElement productName;
+    public static @FindBy(xpath = "//span[@data-hook='rating-out-of-text']")
+    WebElement productRatings;
 
     public void productReviewsAnalysis() throws InterruptedException {
         driver.get(PropertiesUtils.getAmazonProduct_URL());
