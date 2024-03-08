@@ -23,6 +23,8 @@ public class Browsers {
      * @param webUrl      The URL to navigate to.
      * @param headless    Whether to start the browser in headless mode.
      * @return The WebDriver instance for the started browser.
+     *
+     * @author Bhavin.Thumar
      */
     public WebDriver startBrowser(BrowserTypes browserType, String webUrl, boolean headless) {
         System.out.println("Open browser is: " + browserType + " with headless mode is : " + headless);

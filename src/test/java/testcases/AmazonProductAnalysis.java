@@ -15,7 +15,9 @@ import org.testng.annotations.Test;
 import com.product.analytica.utils.ScreenshotUtils;
 
 /**
- * Test class for analyzing Amazon products.
+ * Test case class for analyzing Amazon products.
+ *
+ * @author Bhavin.Thumar
  */
 public class AmazonProductAnalysis extends Browsers {
 

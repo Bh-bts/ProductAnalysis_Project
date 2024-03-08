@@ -22,6 +22,8 @@ import edu.stanford.nlp.util.CoreMap;
 
 /**
  * Page object class for interacting with Amazon product pages and analyzing reviews and ratings.
+ *
+ * @author Bhavin.Thumar
  */
 public class AmazonPage extends Browsers {
 

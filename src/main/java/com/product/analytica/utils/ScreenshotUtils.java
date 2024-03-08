@@ -10,6 +10,8 @@ import org.openqa.selenium.WebDriver;
 
 /**
  * Utility class for capturing screenshots in Selenium WebDriver tests.
+ *
+ * @author Bhavin.Thumar
  */
 public class ScreenshotUtils {
 

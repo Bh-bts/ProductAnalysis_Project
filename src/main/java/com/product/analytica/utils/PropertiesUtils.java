@@ -6,6 +6,8 @@ import java.util.Properties;
 
 /**
  * Utility class for loading and retrieving properties from a configuration file.
+ *
+ * @author Bhavin.Thumar
  */
 public class PropertiesUtils {
 
