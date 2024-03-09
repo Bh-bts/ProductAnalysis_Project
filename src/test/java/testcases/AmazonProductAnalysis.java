@@ -39,7 +39,7 @@ public class AmazonProductAnalysis extends Browsers {
      * @throws IOException          If an I/O error occurs.
      */
     @Test
-    public void productAnalysis() throws InterruptedException, IOException {
+    public void productAnalysis() throws InterruptedException {
         AmazonPage obj = PageFactory.initElements(driver, AmazonPage.class);
         obj.productReviewsAnalysis();
     }
