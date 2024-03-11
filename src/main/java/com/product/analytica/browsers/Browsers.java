@@ -11,6 +11,12 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
+/**
+ * This class manages the creation and configuration of WebDriver instances for
+ * different browsers.
+ *
+ * @author Bhavin.Thumar
+ */
 public class Browsers {
 
     public static WebDriver driver;

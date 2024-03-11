@@ -4,8 +4,9 @@ import java.io.IOException;
 
 import com.product.analytica.browsers.Browsers;
 import com.product.analytica.enums.BrowserTypes;
-import com.product.analytica.pages.AmazonPage;
+import com.product.analytica.pages.AmazonProductPage;
 import com.product.analytica.utils.PropertiesUtils;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -19,16 +20,16 @@ import com.product.analytica.utils.ScreenshotUtils;
  *
  * @author Bhavin.Thumar
  */
-public class AmazonProductAnalysis extends Browsers {
+public class AmazonProductTest {
 
-    Browsers browser;
+    private WebDriver driver;
 
     /**
      * Sets up the test environment before executing the test cases.
      */
     @BeforeTest
     public void setUp() {
-        browser = new Browsers();
+        Browsers browser = new Browsers();
         driver = browser.startBrowser(BrowserTypes.CHROME, PropertiesUtils.getAmazon_URL(), PropertiesUtils.getHeadlessMode());
     }
 
@@ -40,7 +41,7 @@ public class AmazonProductAnalysis extends Browsers {
      */
     @Test
     public void productAnalysis() throws InterruptedException {
-        AmazonPage obj = PageFactory.initElements(driver, AmazonPage.class);
+        AmazonProductPage obj = PageFactory.initElements(driver, AmazonProductPage.class);
         obj.productReviewsAnalysis();
     }
 

@@ -25,7 +25,7 @@ import edu.stanford.nlp.util.CoreMap;
  *
  * @author Bhavin.Thumar
  */
-public class AmazonPage extends Browsers {
+public class AmazonProductPage extends Browsers {
 
     @FindBy(xpath = "//div[@class='a-row a-spacing-base a-size-base']")
     WebElement reviewsCount;

@@ -8,6 +8,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
+/**
+ * Helper class providing methods for interacting with web elements and
+ * JavaScript actions.
+ *
+ * @author Bhavin.Thumar
+ */
 public class ActionHelpers extends Browsers {
 
     /**
