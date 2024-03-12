@@ -1,4 +1,4 @@
-# Amazon Automation <img align="center" src="https://bh-bts.github.io/media/amazon-logo.png" alt="YouTube" width="30" height="30">
+# Amazon Automation <img align="center" src="https://bh-bts.github.io/media/amazon-logo.png" alt="YouTube" width="60" height="30">
 This Repository contains the Automation testcases for YouTube.
 
 ---
